@@ -5,7 +5,7 @@ with open("README.md", "r") as description:
 
 setuptools.setup(
     name="DevGossip-Nosa", # Replace with your own username
-    version="0.1.0",
+    version="0.1.1",
     author="Nosakhare Edokpayi",
     author_email="co.nosakhare@gmail.com",
     entry_points={'console_scripts': ['CLI-DevGossip = DevGossip.__main__:main']}
