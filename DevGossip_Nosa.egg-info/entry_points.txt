@@ -1,0 +1,3 @@
+[console_scripts]
+CLI-DevGossip = DevGossip.__main__:main
+

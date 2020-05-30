@@ -40,9 +40,9 @@ class DevGossip:
                  '5': 'Music'
                  }
                  
-    colors = [bc.LCYAN, bc.LGREEN, bc.YELLOW, bc.LYELLOW, bc.RED,
+    colors = [bc.LCYAN, bc.LGREEN, bc.YELLOW, bc.LYELLOW,
              bc.LRED, bc.LBLUE, bc.PINK, bc.LGREY]
-    user_color = colors[randint(0, 9)]
+    user_color = colors[randint(0, 7)]
     END = bc.ENDC
 
     def homepage(self):
@@ -53,7 +53,7 @@ class DevGossip:
             self.signup()
         elif start_choice == "2":
             print("")
-            app.login()
+            self.login()
         elif start_choice == "3":
             print("")
         else:

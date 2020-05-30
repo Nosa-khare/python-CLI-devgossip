@@ -4,11 +4,11 @@ with open("README.md", "r") as description:
     long_description = description.read()
 
 setuptools.setup(
-    name="DevGossip-Nosa", # Replace with your own username
+    name="DevGossip", # Replace with your own username
     version="0.1.1",
     author="Nosakhare Edokpayi",
     author_email="co.nosakhare@gmail.com",
-    entry_points={'console_scripts': ['CLI-DevGossip = DevGossip.__main__:main']}
+    entry_points={'console_scripts': ['CLI-DevGossip = DevGossip.__main__:main']},
     description="A package of a light weight chat application",
     long_description=long_description,
     long_description_content_type="text/markdown",
