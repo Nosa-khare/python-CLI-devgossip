@@ -4,8 +4,8 @@ with open("README.md", "r") as description:
     long_description = description.read()
 
 setuptools.setup(
-    name="DevGossip", # Replace with your own username
-    version="0.1.1",
+    name="DevGossip-Nosakhare", # Replace with your own username
+    version="0.2.0",
     author="Nosakhare Edokpayi",
     author_email="co.nosakhare@gmail.com",
     entry_points={'console_scripts': ['CLI-DevGossip = DevGossip.__main__:main']},
