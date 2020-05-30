@@ -30,8 +30,8 @@ pip install virtualenv in terminal
 3. cd into the project folder.
 4. install update version of pysher from the github link
 	pip install git+https://github.com/nlsdfnbch/Pysher.git
-5. install requirements.txt
-	pip install requirements.txt
+5. install pusher and python-dotenv:
+	pip install pusher python-dotenv
 6. Head to the project and fill in your pusher app creadentials into the .env file:
 PUSHER_APP_ID = XXX_APP_ID
 PUSHER_APP_KEY = XXX_APP_KEY
@@ -39,4 +39,4 @@ PUSHER_APP_SECRET = XXX_APP_SECRET
 PUSHER_APP_CLUSTER = XXX_APP_CLUSTER
 
 # Run the app
-run python main.py in commandline/terminal
+run python __main__.py in commandline/terminal
