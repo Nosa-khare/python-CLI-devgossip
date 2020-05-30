@@ -1,0 +1,11 @@
+README.md
+setup.py
+DevGossip/DevGossip.py
+DevGossip/__init__.py
+DevGossip/main.py
+DevGossip/classes/__init__.py
+DevGossip/classes/classes.py
+DevGossip_Nosakhare.egg-info/PKG-INFO
+DevGossip_Nosakhare.egg-info/SOURCES.txt
+DevGossip_Nosakhare.egg-info/dependency_links.txt
+DevGossip_Nosakhare.egg-info/top_level.txt
