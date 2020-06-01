@@ -11,7 +11,7 @@ load_dotenv(dotenv_path='.env')
 
 def verify_username(username):
     username_list = []
-    with open("users.txt", "r") as open_file:
+    with open("users.txt", "a+") as open_file:
         users_file = open_file.read()
     users_list = users_file.splitlines()  # split each lines of the file into a list
 
@@ -79,7 +79,7 @@ class DevGossip:
         email = input("Enter email: ")
 
         user = {'username': username, 'password': password, 'email': email, 'fullname': fullname}
-        with open("users.txt", 'a') as users_file:
+        with open("users.txt", 'a+') as users_file:
             users_file.write(json.dumps(user))
             users_file.write("\n")
         self.login()
