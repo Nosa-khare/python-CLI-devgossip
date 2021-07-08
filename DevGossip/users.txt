@@ -1,2 +1,2 @@
-{"username": "nkhare", "password": "university", "email": "co.nosakhare@gmail.com", "fullname": "Nosakhare Edokpayi"}
-{"username": "doctor", "password": "october", "email": "joyedoz@yahoo.com", "fullname": "Joy Edokpayi"}
+{"username": "nkhare", "password": "university", "email": "nosakhare@gmail.com", "fullname": "Nosakhare Edokpayi"}
+{"username": "doctor", "password": "october", "email": "joy@yahoo.com", "fullname": "Joy Edokpayi"}
